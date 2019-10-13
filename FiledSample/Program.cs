@@ -7,6 +7,7 @@ namespace FiledSample
         static void Main(string[] args)
         {
             var myClass = new MyClass();
+
             // var myClass = new MyClass("name");
             // var myClass = new MyClass("name",123);
 
@@ -18,7 +19,7 @@ namespace FiledSample
 
     internal class MyClass
     {
-        private readonly string _name = "123";
+        private string _name = "123";
 
         public MyClass()
         {
