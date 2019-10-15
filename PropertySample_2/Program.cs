@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Reflection;
 
 namespace PropertySample_2
 {
@@ -8,17 +7,22 @@ namespace PropertySample_2
         static void Main(string[] args)
         {
             var myClass = new MyClass();
-            var methodInfos = myClass.GetType().GetMethods(BindingFlags.Public | BindingFlags.Instance);
+            myClass.Name = "354";
+            myClass.Name2 = "354";
+            // myClass.Name3 = "354";
 
-            foreach (var item in methodInfos)
-            {
-                Console.WriteLine(item.Name);
-            }
+            Console.WriteLine(myClass.Name);
+            // Console.WriteLine(myClass.Name2);
+            Console.WriteLine(myClass.Name3);
         }
     }
 
     internal class MyClass
     {
         public string Name { get; set; }
+
+        public string Name2 { private get; set; }
+
+        public string Name3 { get; private set; }
     }
 }
