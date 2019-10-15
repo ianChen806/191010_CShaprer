@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 
-namespace CSharper_1
+namespace PrimitiveTypeSample
 {
-    public class PrimitiveType
+    class Program
     {
-        void Main()
+        static void Main(string[] args)
         {
             int a1 = 1;
 
@@ -19,17 +19,5 @@ namespace CSharper_1
             Console.WriteLine(a3);
             Console.WriteLine(a4);
         }
-    }
-
-    internal class MyClass
-    {
-        public string Name { get; set; }
-    }
-
-    internal struct MyStruct
-    {
-        public string Id { get; set; }
-
-        public string Name { get; set; }
     }
 }

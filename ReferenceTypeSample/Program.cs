@@ -1,21 +1,22 @@
-namespace CSharper_1
+﻿using System;
+
+namespace TypeSample
 {
-    public class ReferenceType
+    class Program
     {
-        private string Test()
+        static void Main(string[] args)
         {
             var car = new Car();
-
             car.Name = "Source";
-            var name = GetName(car);
 
-            return name;
+            SetName(car);
+
+            Console.WriteLine(car.Name);
         }
 
-        private string GetName(Car car)
+        private static void SetName(Car car)
         {
             car.Name = "Change";
-            return car.Name;
         }
     }
 
