@@ -27,10 +27,12 @@ namespace FiledSample
 
         public MyClass(string name)
         {
+            _name = "asd";
         }
 
         public MyClass(string name, int index)
         {
+            _name = "zzx";
         }
 
         public string GetName()
