@@ -6,18 +6,13 @@ namespace PrimitiveTypeSample
     {
         static void Main(string[] args)
         {
-            int a1 = 1;
+            string a1 = "123";
 
-            System.Int32 a2 = 1;
-
-            int a3 = new int();
-
-            System.Int32 a4 = new System.Int32();
+            System.String a2 = "123";
 
             Console.WriteLine(a1);
             Console.WriteLine(a2);
-            Console.WriteLine(a3);
-            Console.WriteLine(a4);
+            Console.WriteLine(a1 == a2);
         }
     }
 }
