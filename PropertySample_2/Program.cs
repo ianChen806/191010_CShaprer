@@ -8,7 +8,11 @@ namespace PropertySample_2
         {
             var myClass = new MyClass();
             myClass.Name = "354";
+<<<<<<< HEAD
             myClass.Name3 = "354";
+=======
+            myClass.Name2 = "354";
+>>>>>>> master
 
             // myClass.Name3 = "354";
 
@@ -25,6 +29,20 @@ namespace PropertySample_2
 
         public string Name2 { get; private set; }
 
+<<<<<<< HEAD
         public string Name3 { private get; set; }
+=======
+        public string Name3 { get; private set; }
+
+        //--
+
+        public string IntMax { get; }
+
+        // public string IntMax2 { set; }
+
+        //--
+
+        public string IntMax3 => int.MaxValue.ToString();
+>>>>>>> master
     }
 }

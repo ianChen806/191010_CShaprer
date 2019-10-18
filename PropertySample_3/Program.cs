@@ -7,23 +7,27 @@ namespace PropertySample_3
         static void Main(string[] args)
         {
             var myClass = new MyClass();
+            myClass.Count = 1;
 
-            Console.WriteLine(myClass.GetName());
+            //myClass.Count = -1; // throw exception;
         }
     }
 
     internal class MyClass
     {
-        private string _name;
+        private int _count;
 
-        public void SetName(string name)
+        public int Count
         {
-            _name = name;
-        }
-
-        public string GetName()
-        {
-            return _name;
+            get { return _count; }
+            set
+            {
+                if (_count < 0)
+                {
+                    throw new ArgumentException();
+                }
+                _count = value;
+            }
         }
     }
 }
