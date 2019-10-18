@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MethodSample_2
+﻿namespace MethodSample_2
 {
     class Program
     {
