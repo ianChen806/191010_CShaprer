@@ -1,24 +1,26 @@
-using System;
+﻿using System;
 
 namespace CSharper_1
 {
-    class Program3
+    class Program
     {
-        static void Main3(string[] args)
+        static void Main(string[] args)
         {
             int value1 = 1;
             int value2 = 2;
-            int result = new Calculation3().Add(value1, value2);
+            int result = new Calculation().Add(value1, value2);
 
             Console.WriteLine(result);
         }
     }
 
-    public class Calculation3
+    internal class Calculation
     {
         public int Add(int first, int second)
         {
             return first + second;
         }
+
+        public int Add2(int first, int second) => first + second;
     }
 }

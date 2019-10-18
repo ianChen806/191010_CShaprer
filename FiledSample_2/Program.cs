@@ -6,26 +6,17 @@ namespace FiledSample_2
     {
         static void Main(string[] args)
         {
-            var myClass = new KeyGenerate(123);
-
-            var id = myClass.GetKey();
-
-            Console.WriteLine(id);
+            var myClass = new MyClass("name");
         }
     }
 
-    internal class KeyGenerate
+    internal class MyClass
     {
-        private readonly int _id;
+        private readonly string _name;
 
-        public KeyGenerate(int id)
+        public MyClass(string name)
         {
-            _id = id;
-        }
-
-        public string GetKey()
-        {
-            return $"MyClass-{_id}-{DateTime.Now.Ticks}";
+            _name = name;
         }
     }
 }
