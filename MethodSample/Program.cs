@@ -1,18 +1,32 @@
 ﻿using System;
 
-namespace CSharper_1
+namespace MethodSample_2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var result = new Calculation().Add(1, 2);
         }
     }
 
     public class Calculation
     {
-        public int Add(int first, int second)
+        public int Add_1(int first, int second)
+        {
+            return first + second;
+        }
+
+        protected int Add_2(int first, int second)
+        {
+            return first + second;
+        }
+
+        private int Add_3(int first, int second)
+        {
+            return first + second;
+        }
+
+        internal int Add_4(int first, int second)
         {
             return first + second;
         }
