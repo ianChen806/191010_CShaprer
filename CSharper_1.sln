@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSample", "StringSampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSample_2", "StringSample_2\StringSample_2.csproj", "{51FD9CDE-CFAB-4F9A-AE53-3B6B85C86D66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerSample", "IndexerSample\IndexerSample.csproj", "{A36A9141-EA28-458E-8BFE-4832E1DFC489}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,5 +146,9 @@ Global
 		{51FD9CDE-CFAB-4F9A-AE53-3B6B85C86D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51FD9CDE-CFAB-4F9A-AE53-3B6B85C86D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51FD9CDE-CFAB-4F9A-AE53-3B6B85C86D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36A9141-EA28-458E-8BFE-4832E1DFC489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36A9141-EA28-458E-8BFE-4832E1DFC489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36A9141-EA28-458E-8BFE-4832E1DFC489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36A9141-EA28-458E-8BFE-4832E1DFC489}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
