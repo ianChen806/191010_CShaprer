@@ -48,6 +48,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSample_2", "StringSam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerSample", "IndexerSample\IndexerSample.csproj", "{A36A9141-EA28-458E-8BFE-4832E1DFC489}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerSample_2", "IndexerSample_2\IndexerSample_2.csproj", "{5CB97F1E-7AE5-42EC-86B3-93CD08922980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,5 +152,9 @@ Global
 		{A36A9141-EA28-458E-8BFE-4832E1DFC489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A36A9141-EA28-458E-8BFE-4832E1DFC489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A36A9141-EA28-458E-8BFE-4832E1DFC489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB97F1E-7AE5-42EC-86B3-93CD08922980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB97F1E-7AE5-42EC-86B3-93CD08922980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB97F1E-7AE5-42EC-86B3-93CD08922980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB97F1E-7AE5-42EC-86B3-93CD08922980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
