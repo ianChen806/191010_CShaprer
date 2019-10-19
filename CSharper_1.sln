@@ -18,8 +18,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimitiveTypeSample", "Prim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypeSample", "ValueTypeSample\ValueTypeSample.csproj", "{53E94CA2-BF6E-4CB0-BC5A-410D97C453D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypeSample_2", "ValueTypeSample_2\ValueTypeSample_2.csproj", "{C86A8522-9CA3-416A-8433-D701469F21D2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateSample", "DelegateSample\DelegateSample.csproj", "{06D2840D-3913-4DFB-9D45-B1C3DF8C4FB2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateSample_2", "DelegateSample_2\DelegateSample_2.csproj", "{390FD66D-D049-445C-8576-D6E1EAF4E8EC}"
@@ -98,10 +96,6 @@ Global
 		{53E94CA2-BF6E-4CB0-BC5A-410D97C453D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53E94CA2-BF6E-4CB0-BC5A-410D97C453D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53E94CA2-BF6E-4CB0-BC5A-410D97C453D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C86A8522-9CA3-416A-8433-D701469F21D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C86A8522-9CA3-416A-8433-D701469F21D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C86A8522-9CA3-416A-8433-D701469F21D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C86A8522-9CA3-416A-8433-D701469F21D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{06D2840D-3913-4DFB-9D45-B1C3DF8C4FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06D2840D-3913-4DFB-9D45-B1C3DF8C4FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06D2840D-3913-4DFB-9D45-B1C3DF8C4FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
