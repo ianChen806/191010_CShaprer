@@ -56,6 +56,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodSample_5", "MethodSam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticSample", "StaticSample\StaticSample.csproj", "{EE790F91-47CF-41C4-960D-2E79F4B91867}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticSample_2", "StaticSample_2\StaticSample_2.csproj", "{3A1A6F43-B944-4697-A4C2-E23A7CFDB1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticSample_3", "StaticSample_3\StaticSample_3.csproj", "{0F3A0BEF-571B-4C48-A042-2FB6AB987440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -174,5 +178,13 @@ Global
 		{EE790F91-47CF-41C4-960D-2E79F4B91867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE790F91-47CF-41C4-960D-2E79F4B91867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE790F91-47CF-41C4-960D-2E79F4B91867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1A6F43-B944-4697-A4C2-E23A7CFDB1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1A6F43-B944-4697-A4C2-E23A7CFDB1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1A6F43-B944-4697-A4C2-E23A7CFDB1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1A6F43-B944-4697-A4C2-E23A7CFDB1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3A0BEF-571B-4C48-A042-2FB6AB987440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3A0BEF-571B-4C48-A042-2FB6AB987440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3A0BEF-571B-4C48-A042-2FB6AB987440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3A0BEF-571B-4C48-A042-2FB6AB987440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
