@@ -1,1 +1,1 @@
-# 191010_CShaprer
+# 191010 CShaprer training
