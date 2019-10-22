@@ -13,11 +13,11 @@ namespace StaticSample_2
                 {
                     MyClass.GetKey();
                 }
-                catch (Exception e)
+                catch(Exception e)
                 {
                     Console.WriteLine(e.GetBaseException().Message);
-                    Thread.Sleep(100);
                 }
+                Thread.Sleep(100);
             }
         }
     }

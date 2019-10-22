@@ -7,7 +7,7 @@ namespace NestedTypeSample_2
         static void Main(string[] args)
         {
             var myClass = new MyClass();
-
+            
             var myClass2 = new MyClass.MyClass2();
         }
     }
@@ -22,7 +22,7 @@ namespace NestedTypeSample_2
         {
         }
 
-        interface IInterface
+        private interface IInterface
         {
         }
     }

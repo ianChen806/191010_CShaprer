@@ -6,17 +6,29 @@ namespace FiledSample_2
     {
         static void Main(string[] args)
         {
-            var myClass = new MyClass("name");
+            var myClass = new MyClass(new MyClass2());
         }
     }
 
     internal class MyClass
     {
-        private readonly string _name;
+        private readonly MyClass2 _value;
 
-        public MyClass(string name)
+        public MyClass(MyClass2 value)
         {
-            _name = name;
+            _value = value;
         }
+
+        private void Test()
+        {
+            _value.Name = "Test";
+
+            // _value = new MyClass2();
+        }
+    }
+
+    internal class MyClass2
+    {
+        public string Name { get; set; }
     }
 }

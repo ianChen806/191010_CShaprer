@@ -15,6 +15,6 @@ namespace PropertySample
 
     internal class MyClass
     {
-        public string Name { get; set; }
+        public string Name { get; set; } = "123";
     }
 }

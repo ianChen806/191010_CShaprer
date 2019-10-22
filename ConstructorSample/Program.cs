@@ -7,8 +7,10 @@ namespace Constructor
         static void Main(string[] args)
         {
             var myClass1 = new MyClass1();
+
             var myClass2 = new MyClass2();
             var myClass22 = new MyClass2(1, "test");
+
             var myClass3 = new MyClass3(1, "test");
 
             // var myClass33 = new MyClass3(); // build error.

@@ -6,22 +6,16 @@ namespace ValueTypeSample
     {
         static void Main(string[] args)
         {
-            var car = new Car();
-            car.Name = "Source";
+            var value = 123;
 
-            SetName(car);
+            ChangeValue(value);
 
-            Console.WriteLine(car.Name);
+            Console.WriteLine(value);
         }
 
-        private static void SetName(Car car)
+        private static void ChangeValue(int input)
         {
-            car.Name = "Change";
+            input = 0000;
         }
-    }
-
-    public struct Car
-    {
-        public string Name { get; set; }
     }
 }

@@ -9,11 +9,12 @@ namespace StaticSample_3
             var value = "Test";
             var md5Hash = value.Md5Hash();
 
+            int.TryParse("1", out var a);
             Console.WriteLine(md5Hash);
         }
     }
 
-    internal static class MyClass
+    internal static class MyClassExtension
     {
         public static string Md5Hash(this string value)
         {

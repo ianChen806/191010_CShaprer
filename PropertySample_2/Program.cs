@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Channels;
 
 namespace PropertySample_2
 {
@@ -23,15 +24,14 @@ namespace PropertySample_2
         public string Name { get; set; }
 
         public string Name2 { get; private set; }
+        // public string Name3 { private get; set; }
 
-        public string Name3 { private get; set; }
-        //--
-
-        public string IntMax { get; }
+        public string IntMax
+        {
+            get { return int.MaxValue.ToString(); }
+        }
 
         // public string IntMax2 { set; }
-
-        //--
 
         public string IntMax3 => int.MaxValue.ToString();
     }

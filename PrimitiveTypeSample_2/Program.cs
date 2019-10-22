@@ -9,7 +9,8 @@ namespace PrimitiveTypeSample_2
             string a1 = "a";
 
             System.String a2 = "a";
-
+            var s = a1+a2;
+            
             string a3 = new string("a");
 
             System.String a4 = new System.String("a");
@@ -18,6 +19,12 @@ namespace PrimitiveTypeSample_2
             Console.WriteLine(a2);
             Console.WriteLine(a3);
             Console.WriteLine(a4);
+            new MyClass();
         }
+    }
+
+    class MyClass
+    {
+        
     }
 }

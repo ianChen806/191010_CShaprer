@@ -8,8 +8,9 @@ namespace IndexerSample
         {
             var stringCollection = new SampleCollection();
             stringCollection[0] = "Hello, World";
-            
-            Console.WriteLine(stringCollection[0]);
+
+            var value = stringCollection[0];
+            Console.WriteLine(value);
         }
     }
 
