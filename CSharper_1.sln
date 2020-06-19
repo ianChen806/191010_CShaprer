@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodSample_2", "MethodSam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorSample", "ConstructorSample\ConstructorSample.csproj", "{0A988384-B998-460D-B014-385A1980B59E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiledSample", "FiledSample\FiledSample.csproj", "{E411B20A-1375-456D-846F-CF8E2BD87671}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldSample", "FieldSample\FieldSample.csproj", "{E411B20A-1375-456D-846F-CF8E2BD87671}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertySample", "PropertySample\PropertySample.csproj", "{B46A7166-3CFE-4648-B720-DB5E43C3D573}"
 EndProject
@@ -28,7 +28,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalSample", "InternalS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorSample_2", "ConstructorSample_2\ConstructorSample_2.csproj", "{20469FB4-2AC5-412E-ABDB-10D280E05642}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiledSample_2", "FiledSample_2\FiledSample_2.csproj", "{208AD9F4-37D2-4C97-904D-92521962826F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldSample_2", "FieldSample_2\FieldSample_2.csproj", "{208AD9F4-37D2-4C97-904D-92521962826F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertySample_3", "PropertySample_3\PropertySample_3.csproj", "{308E291A-78A1-48C9-B806-F18874442862}"
 EndProject

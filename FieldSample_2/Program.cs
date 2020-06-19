@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FiledSample_2
+﻿namespace FieldSample_2
 {
     class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FiledSample
+namespace FieldSample
 {
     class Program
     {
@@ -17,24 +17,24 @@ namespace FiledSample
         }
     }
 
-    internal class MyClass
+    public class MyClass
     {
-        private string _name = "123";
+        private string _name = "field";
 
         public MyClass()
-            : this("Test")
+            : this("this")
         {
-            _name = "3455";
+            _name = "Ctor";
         }
 
         public MyClass(string name)
         {
-            _name = "asd";
+            _name = "ctor name";
         }
 
         public MyClass(string name, int index)
         {
-            _name = "zzx";
+            _name = "ctor name index";
         }
 
         public string GetName()
