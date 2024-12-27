@@ -6,4 +6,8 @@
         {
         }
     }
+
+    internal class InternalClass
+    {
+    }
 }

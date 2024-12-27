@@ -2,7 +2,7 @@ using FluentAssertions;
 
 namespace Exercise;
 
-public class ReferenceType
+public class ReferenceTypeExercise
 {
     [Fact]
     public void Test()
