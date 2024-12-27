@@ -6,7 +6,7 @@ namespace ValueTypeSample
     {
         static void Main(string[] args)
         {
-            var value = 123;
+            int value = 123;
 
             ChangeValue(value);
 
