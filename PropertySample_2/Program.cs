@@ -6,9 +6,9 @@ using System.Threading.Channels;
 
 namespace PropertySample_2
 {
-    class Program
+    public static class Program
     {
-        private void Main(string[] args)
+        public static void Main(string[] args)
         {
             var myClass = new MyClass();
             myClass.Name = "354";
