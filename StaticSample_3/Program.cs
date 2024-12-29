@@ -2,9 +2,9 @@
 
 namespace StaticSample_3
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var value = "Test";
             var md5Hash = value.Md5Hash();

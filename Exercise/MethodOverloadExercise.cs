@@ -1,6 +1,4 @@
-﻿using FluentAssertions;
-
-namespace Exercise;
+﻿namespace Exercise;
 
 public class MethodOverloadExercise
 {

@@ -2,9 +2,9 @@
 
 namespace PropertySample
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var myClass = new MyClass();
             myClass.Name = "354";

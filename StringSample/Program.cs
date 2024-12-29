@@ -1,15 +1,13 @@
-﻿using System;
-
-namespace StringSample
+﻿namespace StringSample
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var value1 = "123";
-            
+
             var value2 = "ABC";
-            
+
             var value3 = "123";
         }
     }

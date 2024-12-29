@@ -1,20 +1,18 @@
-﻿using System;
-
-namespace NestedTypeSample_2
+﻿namespace NestedTypeSample_2
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var myClass = new MyClass();
-            
+
             var myClass2 = new MyClass.MyClass2();
         }
     }
 
     internal class MyClass
     {
-        enum MyEnum
+        private enum MyEnum
         {
         }
 

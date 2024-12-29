@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace IndexerSample
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var stringCollection = new SampleCollection();
             stringCollection[0] = "Hello, World";
@@ -17,18 +16,12 @@ namespace IndexerSample
 
     internal class SampleCollection
     {
-        private string[] values = new string[100];
+        private readonly string[] values = new string[100];
 
         public string this[int i]
         {
-            get
-            {
-                return values[i];
-            }
-            set
-            {
-                values[i] = value;
-            }
+            get => values[i];
+            set => values[i] = value;
         }
     }
 }

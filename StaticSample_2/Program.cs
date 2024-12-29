@@ -3,17 +3,17 @@ using System.Threading;
 
 namespace StaticSample_2
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            for(int count = 0; count < 10; count++)
+            for(var count = 0; count < 10; count++)
             {
                 try
                 {
                     MyClass.GetKey();
                 }
-                catch(Exception e)
+                catch (Exception e)
                 {
                     Console.WriteLine(e.GetBaseException().Message);
                 }
@@ -24,7 +24,7 @@ namespace StaticSample_2
 
     internal static class MyClass
     {
-        private static string _key = "123";
+        private readonly static string _key = "123";
 
         static MyClass()
         {

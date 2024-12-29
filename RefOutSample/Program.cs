@@ -2,13 +2,13 @@
 
 namespace RefOutSample
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var myClass = new MyClass();
 
-            int value1 = 1;
+            var value1 = 1;
             myClass.Ref(ref value1);
             Console.WriteLine($"value1 = {value1}");
 
@@ -20,14 +20,14 @@ namespace RefOutSample
 
     internal class MyClass
     {
-        public void Ref(ref int value)
-        {
-            value = 5;
-        }
-
         public void Out(out int value2)
         {
             value2 = 10;
+        }
+
+        public void Ref(ref int value)
+        {
+            value = 5;
         }
     }
 }

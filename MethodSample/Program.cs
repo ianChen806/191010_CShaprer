@@ -1,8 +1,8 @@
 ﻿namespace MethodSample_2
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
         }
     }
@@ -19,17 +19,17 @@
             return first + second;
         }
 
-        private int Add_3(int first, int second)
-        {
-            return first + second;
-        }
-
         internal int Add_4(int first, int second)
         {
             return first + second;
         }
 
-        int Add_5(int first, int second)
+        private int Add_3(int first, int second)
+        {
+            return first + second;
+        }
+
+        private int Add_5(int first, int second)
         {
             return first + second;
         }

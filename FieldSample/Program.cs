@@ -2,9 +2,9 @@
 
 namespace FieldSample
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var myClass = new MyClass();
 
@@ -19,7 +19,7 @@ namespace FieldSample
 
     public class MyClass
     {
-        private string _name = "field";
+        private readonly string _name = "field";
 
         public MyClass()
             : this("this")

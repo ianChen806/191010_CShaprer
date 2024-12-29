@@ -2,9 +2,9 @@
 
 namespace MethodSample_3
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var result1 = new Calculation()
                 .Add(1);

@@ -4,9 +4,9 @@ namespace DelegateSample_2
 {
     public delegate string ShowNameFunction(string name);
 
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var myClass = new MyClass();
             var name = myClass.ShowName(value => $"my name: {value}");
@@ -17,7 +17,7 @@ namespace DelegateSample_2
 
     internal class MyClass
     {
-        private string _name = "Test";
+        private readonly string _name = "Test";
 
         public string ShowName(ShowNameFunction function)
         {

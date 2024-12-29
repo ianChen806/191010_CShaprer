@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace MethodSample_5
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var myClass = new MyClass();
             var result = myClass.Add(

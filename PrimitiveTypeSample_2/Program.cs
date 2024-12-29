@@ -2,18 +2,18 @@
 
 namespace PrimitiveTypeSample_2
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            string a1 = "a";
+            var a1 = "a";
 
-            System.String a2 = "a";
-            var s = a1+a2;
-            
-            string a3 = new string("a");
+            var a2 = "a";
+            var s = a1 + a2;
 
-            System.String a4 = new System.String("a");
+            var a3 = new string("a");
+
+            var a4 = new string("a");
 
             Console.WriteLine(a1);
             Console.WriteLine(a2);
@@ -23,8 +23,7 @@ namespace PrimitiveTypeSample_2
         }
     }
 
-    class MyClass
+    internal class MyClass
     {
-        
     }
 }

@@ -2,20 +2,20 @@
 
 namespace ValueTypeSample
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void ChangeValue(int input)
         {
-            int value = 123;
+            input = 0000;
+        }
+
+        private static void Main(string[] args)
+        {
+            var value = 123;
 
             ChangeValue(value);
 
             Console.WriteLine(value);
-        }
-
-        private static void ChangeValue(int input)
-        {
-            input = 0000;
         }
     }
 }

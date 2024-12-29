@@ -2,13 +2,13 @@
 
 namespace CSharper_1
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            int value1 = 1;
-            int value2 = 2;
-            int result = new Calculation().Add(value1, value2);
+            var value1 = 1;
+            var value2 = 2;
+            var result = new Calculation().Add(value1, value2);
 
             Console.WriteLine(result);
         }
@@ -21,6 +21,9 @@ namespace CSharper_1
             return first + second;
         }
 
-        public int Add2(int first, int second) => first + second;
+        public int Add2(int first, int second)
+        {
+            return first + second;
+        }
     }
 }

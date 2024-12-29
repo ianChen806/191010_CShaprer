@@ -1,8 +1,4 @@
 ﻿using System;
-using System.IO.IsolatedStorage;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Channels;
 
 namespace PropertySample_2
 {
@@ -31,10 +27,7 @@ namespace PropertySample_2
 
         public string Name3 { private get; set; } = "Test";
 
-        public string IntMax
-        {
-            get { return int.MaxValue.ToString(); }
-        }
+        public string IntMax => int.MaxValue.ToString();
 
         // public string IntMax2 { set; }
 

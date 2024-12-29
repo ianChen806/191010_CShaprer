@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace ConstructorSample_2
+﻿namespace ConstructorSample_2
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var myClass = new SearchRecordService();
         }

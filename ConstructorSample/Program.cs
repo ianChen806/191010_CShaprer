@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace Constructor
+﻿namespace Constructor
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var myClass1 = new MyClass1();
 

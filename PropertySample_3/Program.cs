@@ -2,9 +2,9 @@
 
 namespace PropertySample_3
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var myClass = new MyClass();
             myClass.Count = 1;
@@ -19,7 +19,7 @@ namespace PropertySample_3
 
         public int Count
         {
-            get { return _count; }
+            get => _count;
             set
             {
                 if (_count < 0)

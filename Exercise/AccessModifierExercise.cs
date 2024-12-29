@@ -1,13 +1,11 @@
-﻿using FluentAssertions;
-
-namespace Exercise;
+﻿namespace Exercise;
 
 public class AccessModifierExercise
 {
     [Fact]
     public void Method()
     {
-        var member = new Member(id: 1, name: "test");
+        var member = new Member(1, "test");
 
         // 保持不能直接取得 Id
         // var id = member.Id;
@@ -22,16 +20,16 @@ public class AccessModifierExercise
 
     private class Member
     {
-        //TODO
-        int Id { get; set; }
-
-        //TODO
-        string Name { get; set; }
-
         public Member(int id, string name)
         {
             Id = id;
             Name = name;
         }
+
+        //TODO
+        private int Id { get; set; }
+
+        //TODO
+        private string Name { get; set; }
     }
 }

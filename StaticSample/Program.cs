@@ -2,9 +2,9 @@
 
 namespace StaticSample
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var key = MyClass.GetKey();
             Console.WriteLine(key);
@@ -13,7 +13,7 @@ namespace StaticSample
 
     internal static class MyClass
     {
-        private static string _key = "123";
+        private readonly static string _key = "123";
 
         static MyClass()
         {
