@@ -8,12 +8,11 @@ namespace MethodSample_5
         private static void Main(string[] args)
         {
             var myClass = new MyClass();
-            var result = myClass.Add(
-                1, 2, 3, 4, 5);
+            var result = myClass.Add(1, 2, 3, 4, 5);
+            Console.WriteLine(result);
 
             var result1 = myClass.Add(1, 2, 3, 4);
-
-            Console.WriteLine(result);
+            Console.WriteLine(result1);
         }
     }
 
