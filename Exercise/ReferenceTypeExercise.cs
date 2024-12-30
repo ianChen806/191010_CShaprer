@@ -11,14 +11,16 @@ public class ReferenceTypeExercise
 
         var moduleA = new ModuleA();
         moduleA.ChangeTheme(appSettings, "Dark");
+
         moduleA.Settings.Theme.Should().Be("Dark");
         moduleA.Settings.Language.Should().Be("English");
 
         // 預期 moduleB 拿到預設的 appSettings 但是會在 DisplaySettings方法中修改Language
         var moduleB = new ModuleB();
         moduleB.DisplaySettings(appSettings);
-        moduleA.Settings.Theme.Should().Be("Light");
-        moduleA.Settings.Language.Should().Be("French");
+
+        moduleB.Settings.Theme.Should().Be("Light");
+        moduleB.Settings.Language.Should().Be("French");
     }
 
     private class ModuleA
@@ -48,5 +50,13 @@ public class ReferenceTypeExercise
         public string Theme { get; set; }
 
         public string Language { get; set; }
+    }
+}
+
+public class Cal
+{
+    public int Add(int i, int i1)
+    {
+        return i + i1;
     }
 }
