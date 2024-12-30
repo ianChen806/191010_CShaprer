@@ -33,4 +33,5 @@ public class RefOutExercise
 
 public class CustomInt
 {
+    // use int.Parse
 }
