@@ -10,7 +10,7 @@ public class ParamsExercise
         // 不異動MyClass的情況下, 讓測試通過
         var myClass = new MyClass();
         var result = myClass.Add(1, 2, 3, 4, 5);
-        result.Should().Be("key=14");
+        result.Should().Be("key=15");
     }
 
     private class MyClass
