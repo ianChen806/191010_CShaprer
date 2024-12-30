@@ -1,4 +1,6 @@
-﻿namespace Exercise;
+﻿using FluentAssertions;
+
+namespace Exercise;
 
 public class ConstructorExercise
 {
